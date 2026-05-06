@@ -4,7 +4,7 @@ from nmtc_screener.cli import main
 
 def _run(args=None, input_text=None):
     runner = CliRunner()
-    return runner.invoke(main, args or [], input=input_text, catch_exceptions=False, mix_stderr=False)
+    return runner.invoke(main, args or [], input=input_text, catch_exceptions=False)
 
 
 class TestCLIFlags:
