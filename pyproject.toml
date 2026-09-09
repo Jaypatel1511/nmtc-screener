@@ -41,3 +41,9 @@ include = ["nmtc_screener*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[project.urls]
+Homepage = "https://jaypatel1511.github.io/cdfi-superpowers/"
+Repository = "https://github.com/Jaypatel1511/nmtc-screener"
+Documentation = "https://github.com/Jaypatel1511/nmtc-screener#readme"
+Issues = "https://github.com/Jaypatel1511/nmtc-screener/issues"
